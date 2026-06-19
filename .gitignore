@@ -1,0 +1,48 @@
+# Logs
+*.log
+logs/
+
+# Crash reports
+crash-reports/
+
+# Java crash files
+hs_err_pid*
+replay_pid*
+
+# Compressed files
+*.rar
+
+# Temporary files
+*.tmp
+*.bak
+*.old
+
+# Script files
+*.py
+*.pyd
+
+# Minecraft/Mod generated files
+.asm/
+backups/
+blueprints/
+coretweaks/
+CustomDISkins/
+falsepattern/
+imcScripts/
+journeymap/
+llibrary/
+local/
+nestedmods/
+saves/
+schematics/
+screenshots/
+shaderpacks/
+server-resouce-packs/
+BotaniaVars.dat
+knownkeys.txt
+localconfig.cfg
+options.txt
+optionsnf.txt
+optionsshaders.txt
+servers.dat
+usernamecache.json

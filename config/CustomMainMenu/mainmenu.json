@@ -1,0 +1,138 @@
+{
+    "images":
+    {
+        "side-background":
+        {
+            "image" : "angolanospack:textures/gui/menu_background.png",
+            "posX" : 32,
+            "posY" : 0,
+            "width" : 192,
+            "height" : 1024,
+            "alignment" : "top_left"
+        }
+    },
+    
+    "buttons":
+    {
+        "singleplayer":
+        {
+            "text" : "menu.singleplayer",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "posX" : 42,
+            "posY" : -38,
+            "width" : 172,
+            "height" : 20,
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "singleplayer"
+            }
+        },
+        
+        "multiplayer":
+        {
+            "text" : "menu.multiplayer",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "posX" : 42,
+            "posY" : -14,
+            "width" : 172,
+            "height" : 20,
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "multiplayer"
+            }
+        },
+        
+        "mods":
+        {
+            "text" : "Mods",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "posX" : 42,
+            "posY" : 10,
+            "width" : 84,
+            "height" : 20,
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "mods"
+            }
+        },
+            
+        "options":
+        {
+            "text" : "menu.options",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "posX" : 130,
+            "posY" : 10,
+            "width" : 84,
+            "height" : 20,
+			"alignment": "left_center",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "options"
+            }
+        },
+        
+        "quit":
+        {
+            "text" : "X",
+            "posX" : 192,
+            "posY" : -30,
+            "width" : 20,
+            "height" : 20,
+			"alignment": "bottom_left",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "action" : 
+            {
+                "type" : "quit"
+            }
+        },
+        
+        "language":
+        {
+            "text" : "L",
+            "posX" : 168,
+            "posY" : -30,
+            "width" : 20,
+            "height" : 20,
+			"alignment": "bottom_left",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "action" : 
+            {
+                "type" : "openGui",
+                "gui" : "languages"
+            }
+        },
+        
+        "refresh":
+        {
+            "text" : "R",
+            "posX" : 144,
+            "posY" : -30,
+            "width" : 20,
+            "height" : 20,
+			"alignment": "bottom_left",
+            "texture" : "angolanospack:textures/gui/menu_list_background.png",
+            "action" : 
+            {
+                "type" : "refresh"
+            }
+        }
+    },
+    
+    "texts":
+    {},
+    
+    "other":
+    {
+        "background":
+        {
+            "image" : "angolanospack:textures/gui/background.png"
+        }
+    }
+}

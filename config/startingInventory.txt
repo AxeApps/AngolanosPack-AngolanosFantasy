@@ -1,0 +1,5 @@
+ProjectE:item.pe_alchemical_bag,1,7
+ProjectE:item.pe_alchemical_bag,1,13
+ProjectE:item.pe_alchemical_bag,1,11
+ProjectE:item.pe_alchemical_bag,1,15
+ThermalExpansion:satchel,1,4,{Inventory:{},Accessible:1b}
