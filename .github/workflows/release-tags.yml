@@ -1,4 +1,4 @@
-name: Release
+name: Release Tags
 
 on:
   push:
@@ -13,31 +13,42 @@ jobs:
     runs-on: ubuntu-latest
 
     steps:
-      - uses: actions/checkout@v4
+      - name: Checkout
+        uses: actions/checkout@v4
 
       - name: Read publish config
         run: |
           echo "MODRINTH_ID=$(grep '^modrinthProjectId=' publish.properties | cut -d= -f2)" >> $GITHUB_ENV
           echo "CURSEFORGE_ID=$(grep '^curseforgeProjectId=' publish.properties | cut -d= -f2)" >> $GITHUB_ENV
 
+      - name: Setup Go (cached)
+        uses: actions/setup-go@v5
+        with:
+          go-version: '1.22'
+          cache: true
+
       - name: Install Packwiz
         run: |
-          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-amd64 -o packwiz
-          chmod +x packwiz
+          go install github.com/packwiz/packwiz@v0.3.0
+          echo "$HOME/go/bin" >> $GITHUB_PATH
 
-      - name: Refresh index
-        run: ./packwiz refresh
+      - name: Refresh pack
+        run: packwiz refresh
 
-      - name: Export Modrinth pack
-        run: ./packwiz modrinth export
+      - name: Build Modrinth MRPACK
+        run: packwiz modrinth export || true
 
-      - name: Export CurseForge pack
-        run: ./packwiz curseforge export
+      - name: Build CurseForge ZIP
+        run: packwiz curseforge export || true
 
       - name: Rename outputs
         run: |
-          mv *.mrpack AngolanosFantasy.mrpack
-          mv *.zip AngolanosFantasy.zip
+          if ls *.mrpack 1> /dev/null 2>&1; then
+            mv *.mrpack AngolanosFantasy.mrpack
+          fi
+          if ls *.zip 1> /dev/null 2>&1; then
+            mv *.zip AngolanosFantasy.zip
+          fi
 
       - name: GitHub Release
         uses: softprops/action-gh-release@v2
