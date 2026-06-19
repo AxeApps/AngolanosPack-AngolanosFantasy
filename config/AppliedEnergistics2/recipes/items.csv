@@ -733,6 +733,7 @@ minecraft:spawn_egg:389, Spawn Mammoth
 minecraft:spawn_egg:390, Spawn Smilodon
 minecraft:spawn_egg:391, Spawn Quagga
 minecraft:spawn_egg:392, Spawn Elasmotherium
+minecraft:spawn_egg:190, Spawn entity.Rock.name
 minecraft:experience_bottle, Bottle o' Enchanting
 minecraft:fire_charge, Fire Charge
 minecraft:writable_book, Book and Quill
@@ -4897,7 +4898,7 @@ HardcoreEnderExpansion:instability_orb_ore, Instability Orb Ore
 ExtraUtilities:chestMini, Mini-Chest
 ExtraUtilities:chestFull, Slightly Larger Chest
 ExtraUtilities:enderCollector, Ender Collector
-ExtraUtilities:endConstructor:0, QED (Quasar Entanglement Device)
+ExtraUtilities:endConstructor:0, QED (Quantum Entity Device)
 ExtraUtilities:endConstructor:2, Ender-Flux Crystal
 ExtraUtilities:endMarker, Ender-Marker
 ExtraUtilities:curtains, Blackout Curtains
@@ -7873,6 +7874,217 @@ OpenBlocks:sky:1, Sky Block
 OpenBlocks:xpshower, XP Shower
 OpenBlocks:goldenegg, Golden Egg
 OpenBlocks:scaffolding, Scaffolding
+OreSpawn:OreSpawn_SpiderSpawnBlock, tile.orespider.name
+OreSpawn:OreSpawn_BatSpawnBlock, tile.orebat.name
+OreSpawn:OreSpawn_CowSpawnBlock, tile.orecow.name
+OreSpawn:OreSpawn_PigSpawnBlock, tile.orepig.name
+OreSpawn:OreSpawn_SquidSpawnBlock, tile.oresquid.name
+OreSpawn:OreSpawn_ChickenSpawnBlock, tile.orechicken.name
+OreSpawn:OreSpawn_CreeperSpawnBlock, tile.orecreeper.name
+OreSpawn:OreSpawn_SkeletonSpawnBlock, tile.oreskeleton.name
+OreSpawn:OreSpawn_ZombieSpawnBlock, tile.orezombie.name
+OreSpawn:OreSpawn_SlimeSpawnBlock, tile.oreslime.name
+OreSpawn:OreSpawn_GhastSpawnBlock, tile.oreghast.name
+OreSpawn:OreSpawn_ZombiePigmanSpawnBlock, tile.orezombiepigman.name
+OreSpawn:OreSpawn_EndermanSpawnBlock, tile.oreenderman.name
+OreSpawn:OreSpawn_CaveSpiderSpawnBlock, tile.orecavespider.name
+OreSpawn:OreSpawn_SilverfishSpawnBlock, tile.oresilverfish.name
+OreSpawn:OreSpawn_MagmaCubeSpawnBlock, tile.oremagmacube.name
+OreSpawn:OreSpawn_WitchSpawnBlock, tile.orewitch.name
+OreSpawn:OreSpawn_SheepSpawnBlock, tile.oresheep.name
+OreSpawn:OreSpawn_WolfSpawnBlock, tile.orewolf.name
+OreSpawn:OreSpawn_MooshroomSpawnBlock, tile.oremooshroom.name
+OreSpawn:OreSpawn_WitherBossSpawnBlock, tile.orewitherboss.name
+OreSpawn:OreSpawn_GirlfriendSpawnBlock, tile.oregirlfriend.name
+OreSpawn:OreSpawn_BoyfriendSpawnBlock, tile.oreboyfriend.name
+OreSpawn:OreSpawn_RedCowSpawnBlock, tile.oreredcow.name
+OreSpawn:OreSpawn_CrystalCowSpawnBlock, tile.orecrystalcow.name
+OreSpawn:OreSpawn_VillagerSpawnBlock, tile.orevillager.name
+OreSpawn:OreSpawn_GoldCowSpawnBlock, tile.oregoldcow.name
+OreSpawn:OreSpawn_EnchantedCowSpawnBlock, tile.oreenchantedcow.name
+OreSpawn:OreSpawn_MOTHRASpawnBlock, tile.oreMOTHRA.name
+OreSpawn:OreSpawn_AloSpawnBlock, tile.orealosaurus.name
+OreSpawn:OreSpawn_CryoSpawnBlock, tile.orecryolophosaurus.name
+OreSpawn:OreSpawn_CamaSpawnBlock, tile.orecamarasaurus.name
+OreSpawn:OreSpawn_VeloSpawnBlock, tile.orevelocityraptor.name
+OreSpawn:OreSpawn_HydroSpawnBlock, tile.orehydrolisc.name
+OreSpawn:OreSpawn_BasilSpawnBlock, tile.orebasilisc.name
+OreSpawn:OreSpawn_DragonflySpawnBlock, tile.oredragonfly.name
+OreSpawn:OreSpawn_EmperorScorpionSpawnBlock, tile.oreemperorscorpion.name
+OreSpawn:OreSpawn_ScorpionSpawnBlock, tile.orescorpion.name
+OreSpawn:OreSpawn_CaveFisherSpawnBlock, tile.orecavefisher.name
+OreSpawn:OreSpawn_SpyroSpawnBlock, tile.orespyro.name
+OreSpawn:OreSpawn_BaryonyxSpawnBlock, tile.orebaryonyx.name
+OreSpawn:OreSpawn_GammaMetroidSpawnBlock, tile.oregammametroid.name
+OreSpawn:OreSpawn_CockateilSpawnBlock, tile.orecockateil.name
+OreSpawn:OreSpawn_KyuubiSpawnBlock, tile.orekyuubi.name
+OreSpawn:OreSpawn_AlienSpawnBlock, tile.orealien.name
+OreSpawn:OreSpawn_IronGolemSpawnBlock, tile.oreirongolem.name
+OreSpawn:OreSpawn_SnowGolemSpawnBlock, tile.oresnowgolem.name
+OreSpawn:OreSpawn_EnderDragonSpawnBlock, tile.oreenderdragon.name
+OreSpawn:OreSpawn_OcelotSpawnBlock, tile.oreocelot.name
+OreSpawn:OreSpawn_WitherSkeletonSpawnBlock, tile.orewitherskeleton.name
+OreSpawn:OreSpawn_BlazeSpawnBlock, tile.oreblaze.name
+OreSpawn:OreSpawn_AttackSquidSpawnBlock, tile.oreattacksquid.name
+OreSpawn:OreSpawn_WaterDragonSpawnBlock, tile.orewaterdragon.name
+OreSpawn:OreSpawn_CephadromeSpawnBlock, tile.orecephadrome.name
+OreSpawn:OreSpawn_KrakenSpawnBlock, tile.orekraken.name
+OreSpawn:OreSpawn_LizardSpawnBlock, tile.orelizard.name
+OreSpawn:OreSpawn_DragonSpawnBlock, tile.oredragon.name
+OreSpawn:OreSpawn_BeeSpawnBlock, tile.orebee.name
+OreSpawn:OreSpawn_HorseSpawnBlock, tile.orehorse.name
+OreSpawn:OreSpawn_TrooperBugSpawnBlock, tile.oretrooper.name
+OreSpawn:OreSpawn_SpitBugSpawnBlock, tile.orespit.name
+OreSpawn:OreSpawn_StinkBugSpawnBlock, tile.orestink.name
+OreSpawn:OreSpawn_OstrichSpawnBlock, tile.oreostrich.name
+OreSpawn:OreSpawn_GazelleSpawnBlock, tile.oregazelle.name
+OreSpawn:OreSpawn_ChipmunkSpawnBlock, tile.orechipmunk.name
+OreSpawn:OreSpawn_CreepingHorrorSpawnBlock, tile.orecreepinghorror.name
+OreSpawn:OreSpawn_TerribleTerrorSpawnBlock, tile.oreterribleterror.name
+OreSpawn:OreSpawn_CliffRacerSpawnBlock, tile.orecliffracer.name
+OreSpawn:OreSpawn_TriffidSpawnBlock, tile.oretriffid.name
+OreSpawn:OreSpawn_PitchBlackSpawnBlock, tile.orenightmare.name
+OreSpawn:OreSpawn_LurkingTerrorSpawnBlock, tile.orelurkingterror.name
+OreSpawn:OreSpawn_GodzillaPartSpawnBlock, tile.oregodzillapart.name
+OreSpawn:OreSpawn_GodzillaSpawnBlock, tile.oregodzilla.name
+OreSpawn:OreSpawn_TheKingPartSpawnBlock, tile.orethekingpart.name
+OreSpawn:OreSpawn_TheKingSpawnBlock, tile.oretheking.name
+OreSpawn:OreSpawn_TheQueenPartSpawnBlock, tile.orethequeenpart.name
+OreSpawn:OreSpawn_TheQueenSpawnBlock, tile.orethequeen.name
+OreSpawn:OreSpawn_SmallWormSpawnBlock, tile.oresmallworm.name
+OreSpawn:OreSpawn_MediumWormSpawnBlock, tile.oremediumworm.name
+OreSpawn:OreSpawn_LargeWormSpawnBlock, tile.orelargeworm.name
+OreSpawn:OreSpawn_CassowarySpawnBlock, tile.orecassowary.name
+OreSpawn:OreSpawn_CloudSharkSpawnBlock, tile.orecloudshark.name
+OreSpawn:OreSpawn_GoldFishSpawnBlock, tile.oregoldfish.name
+OreSpawn:OreSpawn_LeafMonsterSpawnBlock, tile.oreleafmonster.name
+OreSpawn:OreSpawn_TshirtSpawnBlock, tile.oretshirt.name
+OreSpawn:OreSpawn_EnderKnightSpawnBlock, tile.oreenderknight.name
+OreSpawn:OreSpawn_EnderReaperSpawnBlock, tile.oreenderreaper.name
+OreSpawn:OreSpawn_BeaverSpawnBlock, tile.orebeaver.name
+OreSpawn:OreSpawn_UrchinSpawnBlock, tile.oreurchin.name
+OreSpawn:OreSpawn_FlounderSpawnBlock, tile.oreflounder.name
+OreSpawn:OreSpawn_SkateSpawnBlock, tile.oreskate.name
+OreSpawn:OreSpawn_RotatorSpawnBlock, tile.orerotator.name
+OreSpawn:OreSpawn_PeacockSpawnBlock, tile.orepeacock.name
+OreSpawn:OreSpawn_FairySpawnBlock, tile.orefairy.name
+OreSpawn:OreSpawn_DungeonBeastSpawnBlock, tile.oredungeonbeast.name
+OreSpawn:OreSpawn_VortexSpawnBlock, tile.orevortex.name
+OreSpawn:OreSpawn_RatSpawnBlock, tile.orerat.name
+OreSpawn:OreSpawn_WhaleSpawnBlock, tile.orewhale.name
+OreSpawn:OreSpawn_IrukandjiSpawnBlock, tile.oreirukandji.name
+OreSpawn:OreSpawn_TRexSpawnBlock, tile.oretrex.name
+OreSpawn:OreSpawn_HerculesSpawnBlock, tile.orehercules.name
+OreSpawn:OreSpawn_MantisSpawnBlock, tile.oremantis.name
+OreSpawn:OreSpawn_StinkySpawnBlock, tile.orestinky.name
+OreSpawn:OreSpawn_EasterBunnySpawnBlock, tile.oreeasterbunny.name
+OreSpawn:OreSpawn_CaterKillerSpawnBlock, tile.orecaterkiller.name
+OreSpawn:OreSpawn_MolenoidSpawnBlock, tile.oremolenoid.name
+OreSpawn:OreSpawn_SeaMonsterSpawnBlock, tile.oreseamonster.name
+OreSpawn:OreSpawn_SeaViperSpawnBlock, tile.oreseaviper.name
+OreSpawn:OreSpawn_LeonSpawnBlock, tile.oreleon.name
+OreSpawn:OreSpawn_HammerheadSpawnBlock, tile.orehammerhead.name
+OreSpawn:OreSpawn_RubberDuckySpawnBlock, tile.orerubberducky.name
+OreSpawn:OreSpawn_CriminalSpawnBlock, tile.orecriminal.name
+OreSpawn:OreSpawn_BrutalflySpawnBlock, tile.orebrutalfly.name
+OreSpawn:OreSpawn_NastysaurusSpawnBlock, tile.orenastysaurus.name
+OreSpawn:OreSpawn_PointysaurusSpawnBlock, tile.orepointysaurus.name
+OreSpawn:OreSpawn_CricketSpawnBlock, tile.orecricket.name
+OreSpawn:OreSpawn_FrogSpawnBlock, tile.orefrog.name
+OreSpawn:OreSpawn_SpiderDriverSpawnBlock, tile.orespiderdriver.name
+OreSpawn:OreSpawn_CrabSpawnBlock, tile.orecrab.name
+OreSpawn:OreSpawn_OreSaltBlock, tile.oresalt.name
+OreSpawn:OreSpawn_RTPBlock, tile.blockteleport.name
+OreSpawn:OreSpawn_MoleDirtBlock, tile.moledirt.name
+OreSpawn:OreSpawn_OreTitaniumBlock, tile.oretitanium.name
+OreSpawn:OreSpawn_OreUraniumBlock, tile.oreuranium.name
+OreSpawn:OreSpawn_BlockTitaniumBlock, tile.blocktitanium.name
+OreSpawn:OreSpawn_BlockMobzillaScaleBlock, tile.blockmobzillascale.name
+OreSpawn:OreSpawn_BlockUraniumBlock, tile.blockuranium.name
+OreSpawn:OreSpawn_LavafoamBlock, tile.lavafoam.name
+OreSpawn:OreSpawn_OreRubyBlock, tile.oreruby.name
+OreSpawn:OreSpawn_BlockRubyBlock, tile.blockruby.name
+OreSpawn:OreSpawn_OreAmethystBlock, tile.oreamethyst.name
+OreSpawn:OreSpawn_BlockAmethystBlock, tile.blockamethyst.name
+OreSpawn:OreSpawn_CrystalPinkBlock, tile.crystalpink_block.name
+OreSpawn:OreSpawn_TigersEyeBlock, tile.tigerseye_block.name
+OreSpawn:OreSpawn_PizzaBlock, tile.pizza.name
+OreSpawn:OreSpawn_DuctTapeBlock, tile.ducttape.name
+OreSpawn:OreSpawn_OreCrystalStoneBlock, tile.crystalstone.name
+OreSpawn:OreSpawn_OreCrystalRatBlock, tile.crystalrat.name
+OreSpawn:OreSpawn_OreRedAntTrollBlock, tile.redanttroll.name
+OreSpawn:OreSpawn_OreTermiteTrollBlock, tile.termitetroll.name
+OreSpawn:OreSpawn_OreCrystalFairyBlock, tile.crystalfairy.name
+OreSpawn:OreSpawn_OreCrystalCoalBlock, tile.crystalcoal.name
+OreSpawn:OreSpawn_OreCrystalGrassBlock, tile.crystalgrass.name
+OreSpawn:OreSpawn_OreCrystalCrystalBlock, tile.crystalcrystal.name
+OreSpawn:OreSpawn_OreTigersEyeBlock, tile.tigerseye.name
+OreSpawn:OreSpawn_CrystalPlanksBlock, tile.crystalplanks.name
+OreSpawn:OreSpawn_CrystalWorkbenchBlock, tile.crystalworkbench.name
+OreSpawn:OreSpawn_CrystalFurnaceBlock, tile.crystalfurnace.name
+OreSpawn:OreSpawn_CrystalFurnaceOnBlock, tile.crystalfurnace.name
+OreSpawn:OreSpawn_StrawberryPlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_RadishPlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_RicePlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_ButterflyPlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_MothPlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_MosquitoPlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_FireflyPlant, Unnamed Block, report to mod author.
+OreSpawn:OreSpawn_CornPlant1, tile.corn_0.name
+OreSpawn:OreSpawn_CornPlant2, tile.corn_1.name
+OreSpawn:OreSpawn_CornPlant3, tile.corn_2.name
+OreSpawn:OreSpawn_CornPlant4, tile.corn_3.name
+OreSpawn:OreSpawn_QuinoaPlant1, tile.quinoa_0.name
+OreSpawn:OreSpawn_QuinoaPlant2, tile.quinoa_1.name
+OreSpawn:OreSpawn_QuinoaPlant3, tile.quinoa_2.name
+OreSpawn:OreSpawn_QuinoaPlant4, tile.quinoa_3.name
+OreSpawn:OreSpawn_TomatoPlant1, tile.tomato_0.name
+OreSpawn:OreSpawn_TomatoPlant2, tile.tomato_1.name
+OreSpawn:OreSpawn_TomatoPlant3, tile.tomato_2.name
+OreSpawn:OreSpawn_TomatoPlant4, tile.tomato_3.name
+OreSpawn:OreSpawn_LettucePlant1, tile.lettuce_0.name
+OreSpawn:OreSpawn_LettucePlant2, tile.lettuce_1.name
+OreSpawn:OreSpawn_LettucePlant3, tile.lettuce_2.name
+OreSpawn:OreSpawn_LettucePlant4, tile.lettuce_3.name
+OreSpawn:OreSpawn_AppleLeaves, tile.leaves_apple.name
+OreSpawn:OreSpawn_ExperienceLeaves, tile.leaves_experience.name
+OreSpawn:OreSpawn_ScaryLeaves, tile.leaves_scary.name
+OreSpawn:OreSpawn_CherryLeaves, tile.leaves_cherry.name
+OreSpawn:OreSpawn_PeachLeaves, tile.leaves_peach.name
+OreSpawn:OreSpawn_SkyTreeLog, tile.skytreelog.name
+OreSpawn:OreSpawn_DuplicatorLog, tile.duplicatortreelog.name
+OreSpawn:OreSpawn_ExperiencePlant, tile.experiencesapling.name
+OreSpawn:OreSpawn_CrystalPlant, tile.crystalsapling.name
+OreSpawn:OreSpawn_CrystalPlant2, tile.crystalsapling2.name
+OreSpawn:OreSpawn_CrystalPlant3, tile.crystalsapling3.name
+OreSpawn:OreSpawn_FlowerPink, tile.flower_pink.name
+OreSpawn:OreSpawn_FlowerBlue, tile.flower_blue.name
+OreSpawn:OreSpawn_FlowerBlack, tile.flower_black.name
+OreSpawn:OreSpawn_FlowerScary, tile.flower_scary.name
+OreSpawn:OreSpawn_CrystalFlowerRed, tile.crystalflower_red.name
+OreSpawn:OreSpawn_CrystalFlowerGreen, tile.crystalflower_green.name
+OreSpawn:OreSpawn_CrystalFlowerBlue, tile.crystalflower_blue.name
+OreSpawn:OreSpawn_CrystalFlowerYellow, tile.crystalflower_yellow.name
+OreSpawn:OreSpawn_CrystalLeaves, tile.crystaltreeleaves.name
+OreSpawn:OreSpawn_CrystalLeaves2, tile.crystaltreeleaves2.name
+OreSpawn:OreSpawn_CrystalLeaves3, tile.crystaltreeleaves3.name
+OreSpawn:OreSpawn_CrystalTreeLog, tile.crystaltreelog.name
+OreSpawn:OreSpawn_ExtremeTorch, tile.extremetorch.name
+OreSpawn:OreSpawn_CrystalTorch, tile.crystaltorch.name
+OreSpawn:OreSpawn_KrakenRepellent, tile.krakenrepellent.name
+OreSpawn:OreSpawn_CreeperRepellent, tile.creeperrepellent.name
+OreSpawn:OreSpawn_Island, tile.island.name
+OreSpawn:OreSpawn_KingSpawner, tile.kingspawner.name
+OreSpawn:OreSpawn_QueenSpawner, tile.queenspawner.name
+OreSpawn:OreSpawn_DungeonSpawner, tile.dungeonspawner.name
+OreSpawn:OreSpawn_EnderPearlBlock, tile.blockenderpearl.name
+OreSpawn:OreSpawn_EyeOfEnderBlock, tile.blockeyeofender.name
+OreSpawn:OreSpawn_AntBlock, tile.AntBlock.name
+OreSpawn:OreSpawn_RedAntBlock, tile.RedAntBlock.name
+OreSpawn:OreSpawn_TermiteBlock, tile.TermiteBlock.name
+OreSpawn:OreSpawn_CrystalTermiteBlock, tile.CrystalTermiteBlock.name
+OreSpawn:OreSpawn_RainbowAntBlock, tile.RainbowAntBlock.name
+OreSpawn:OreSpawn_UnstableAntBlock, tile.UnstableAntBlock.name
 ProjectE:interdiction_torch, Interdiction Torch
 ProjectE:condenser_mk2, Energy Condenser MK2
 ProjectE:rm_furnace_lit, Red Matter Furnace
@@ -12683,6 +12895,134 @@ appliedenergistics2:item.ItemFacade:0, Cable Facade - §6Orange Plastic Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - §fWhite Plastic Road
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Salt Block
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Elevator
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orespider.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orebat.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecow.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orepig.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oresquid.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orechicken.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecreeper.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreskeleton.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orezombie.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreslime.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreghast.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orezombiepigman.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreenderman.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecavespider.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oresilverfish.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oremagmacube.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orewitch.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oresheep.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orewolf.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oremooshroom.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orewitherboss.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregirlfriend.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreboyfriend.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreredcow.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecrystalcow.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orevillager.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregoldcow.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreenchantedcow.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreMOTHRA.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orealosaurus.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecryolophosaurus.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecamarasaurus.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orevelocityraptor.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orehydrolisc.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orebasilisc.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oredragonfly.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreemperorscorpion.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orescorpion.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecavefisher.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orespyro.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orebaryonyx.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregammametroid.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecockateil.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orekyuubi.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orealien.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreirongolem.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oresnowgolem.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreenderdragon.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreocelot.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orewitherskeleton.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreblaze.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreattacksquid.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orewaterdragon.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecephadrome.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orekraken.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orelizard.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oredragon.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orebee.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orehorse.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oretrooper.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orespit.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orestink.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreostrich.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregazelle.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orechipmunk.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecreepinghorror.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreterribleterror.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecliffracer.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oretriffid.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orenightmare.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orelurkingterror.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregodzillapart.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregodzilla.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orethekingpart.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oretheking.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orethequeenpart.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orethequeen.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oresmallworm.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oremediumworm.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orelargeworm.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecassowary.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecloudshark.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oregoldfish.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreleafmonster.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oretshirt.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreenderknight.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreenderreaper.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orebeaver.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreurchin.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreflounder.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreskate.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orerotator.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orepeacock.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orefairy.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oredungeonbeast.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orevortex.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orerat.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orewhale.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreirukandji.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oretrex.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orehercules.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oremantis.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orestinky.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreeasterbunny.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecaterkiller.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oremolenoid.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreseamonster.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreseaviper.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreleon.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orehammerhead.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orerubberducky.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecriminal.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orebrutalfly.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orenastysaurus.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orepointysaurus.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecricket.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orefrog.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orespiderdriver.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.orecrab.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oresalt.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.blockteleport.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.blocktitanium.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.blockuranium.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreruby.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.oreamethyst.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.skytreelog.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.blockenderpearl.name
+appliedenergistics2:item.ItemFacade:0, Cable Facade - tile.blockeyeofender.name
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nova Catalyst
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Nova Cataclysm
 appliedenergistics2:item.ItemFacade:0, Cable Facade - Dark Matter Block
@@ -19956,6 +20296,479 @@ OpenBlocks:spongeonastick, Sponge
 OpenBlocks:pedometer, Pedometer
 OpenBlocks:epicEraser, Epic Eraser
 OpenBlocks:wrench, Big Metal Bar
+OreSpawn:OreSpawn_PizzaItem, item.pizza.name
+OreSpawn:OreSpawn_DuctTapeItem, item.ducttape.name
+OreSpawn:OreSpawn_IngotUranium, item.ingoturanium.name
+OreSpawn:OreSpawn_CrystalPinkIngot, item.crystalpink_ingot.name
+OreSpawn:OreSpawn_TigersEyeIngot, item.tigerseye_ingot.name
+OreSpawn:OreSpawn_IngotTitanium, item.ingottitanium.name
+OreSpawn:OreSpawn_UltimateSword, item.ultimatesword.name
+OreSpawn:OreSpawn_NightmareSword, item.nightmaresword.name
+OreSpawn:OreSpawn_Bertha, item.berthasmall.name
+OreSpawn:OreSpawn_Hammy, item.hammysmall.name
+OreSpawn:OreSpawn_Slice, item.slicesmall.name
+OreSpawn:OreSpawn_Royal, item.royalsmall.name
+OreSpawn:OreSpawn_BattleAxe, item.battleaxesmall.name
+OreSpawn:OreSpawn_QueenBattleAxe, item.queenbattleaxesmall.name
+OreSpawn:OreSpawn_Chainsaw, item.chainsawsmall.name
+OreSpawn:OreSpawn_UltimatePickaxe, item.ultimatepickaxe.name
+OreSpawn:OreSpawn_UltimateShovel, item.ultimateshovel.name
+OreSpawn:OreSpawn_UltimateHoe, item.ultimatehoe.name
+OreSpawn:OreSpawn_UltimateAxe, item.ultimateaxe.name
+OreSpawn:OreSpawn_EmeraldSword, item.emeraldsword.name
+OreSpawn:OreSpawn_RoseSword, item.rosesword.name
+OreSpawn:OreSpawn_ExperienceSword, item.experiencesword.name
+OreSpawn:OreSpawn_PoisonSword, item.poisonsword.name
+OreSpawn:OreSpawn_RatSword, item.ratsword.name
+OreSpawn:OreSpawn_FairySword, item.fairysword.name
+OreSpawn:OreSpawn_MantisClaw, item.mantisclaw.name
+OreSpawn:OreSpawn_BigHammer, item.bighammer.name
+OreSpawn:OreSpawn_EmeraldPickaxe, item.emeraldpickaxe.name
+OreSpawn:OreSpawn_EmeraldShovel, item.emeraldshovel.name
+OreSpawn:OreSpawn_EmeraldHoe, item.emeraldhoe.name
+OreSpawn:OreSpawn_EmeraldAxe, item.emeraldaxe.name
+OreSpawn:OreSpawn_CrystalWoodSword, item.crystalwoodsword.name
+OreSpawn:OreSpawn_CrystalWoodPickaxe, item.crystalwoodpickaxe.name
+OreSpawn:OreSpawn_CrystalWoodShovel, item.crystalwoodshovel.name
+OreSpawn:OreSpawn_CrystalWoodHoe, item.crystalwoodhoe.name
+OreSpawn:OreSpawn_CrystalWoodAxe, item.crystalwoodaxe.name
+OreSpawn:OreSpawn_CrystalPinkSword, item.crystalpinksword.name
+OreSpawn:OreSpawn_CrystalPinkPickaxe, item.crystalpinkpickaxe.name
+OreSpawn:OreSpawn_CrystalPinkShovel, item.crystalpinkshovel.name
+OreSpawn:OreSpawn_CrystalPinkHoe, item.crystalpinkhoe.name
+OreSpawn:OreSpawn_CrystalPinkAxe, item.crystalpinkaxe.name
+OreSpawn:OreSpawn_TigersEyeSword, item.tigerseye_sword.name
+OreSpawn:OreSpawn_TigersEyePickaxe, item.tigerseye_pickaxe.name
+OreSpawn:OreSpawn_TigersEyeShovel, item.tigerseye_shovel.name
+OreSpawn:OreSpawn_TigersEyeHoe, item.tigerseye_hoe.name
+OreSpawn:OreSpawn_TigersEyeAxe, item.tigerseye_axe.name
+OreSpawn:OreSpawn_CrystalStoneSword, item.crystalstonesword.name
+OreSpawn:OreSpawn_CrystalStonePickaxe, item.crystalstonepickaxe.name
+OreSpawn:OreSpawn_CrystalStoneShovel, item.crystalstoneshovel.name
+OreSpawn:OreSpawn_CrystalStoneHoe, item.crystalstonehoe.name
+OreSpawn:OreSpawn_CrystalStoneAxe, item.crystalstoneaxe.name
+OreSpawn:OreSpawn_RubySword, item.rubysword.name
+OreSpawn:OreSpawn_RubyPickaxe, item.rubypickaxe.name
+OreSpawn:OreSpawn_RubyShovel, item.rubyshovel.name
+OreSpawn:OreSpawn_RubyHoe, item.rubyhoe.name
+OreSpawn:OreSpawn_RubyAxe, item.rubyaxe.name
+OreSpawn:OreSpawn_AmethystSword, item.amethystsword.name
+OreSpawn:OreSpawn_AmethystPickaxe, item.amethystpickaxe.name
+OreSpawn:OreSpawn_AmethystShovel, item.amethystshovel.name
+OreSpawn:OreSpawn_AmethystHoe, item.amethysthoe.name
+OreSpawn:OreSpawn_AmethystAxe, item.amethystaxe.name
+OreSpawn:OreSpawn_RedHeels, item.redheels.name
+OreSpawn:OreSpawn_BlackHeels, item.blackheels.name
+OreSpawn:OreSpawn_Slippers, item.slippers.name
+OreSpawn:OreSpawn_Boots, item.boots.name
+OreSpawn:OreSpawn_GameController, item.gamecontroller.name
+OreSpawn:OreSpawn_UltimateBow, item.ultimatebow.name
+OreSpawn:OreSpawn_SkateBow, item.skatebow.name
+OreSpawn:OreSpawn_UltimateFishingRod, item.ultimatefishingrod.name
+OreSpawn:OreSpawn_FireFish, item.firefish.name
+OreSpawn:OreSpawn_SunFish, item.sunfish.name
+OreSpawn:OreSpawn_LavaEel, item.lavaeel.name
+OreSpawn:OreSpawn_MothScale, item.mothscale.name
+OreSpawn:OreSpawn_QueenScale, item.queenscale.name
+OreSpawn:OreSpawn_NightmareScale, item.nightmarescale.name
+OreSpawn:OreSpawn_EmperorScorpionScale, item.emperorscorpionscale.name
+OreSpawn:OreSpawn_BasiliskScale, item.basiliskscale.name
+OreSpawn:OreSpawn_WaterDragonScale, item.waterdragonscale.name
+OreSpawn:OreSpawn_PeacockFeather, item.peacockfeather.name
+OreSpawn:OreSpawn_JumpyBugScale, item.jumpybugscale.name
+OreSpawn:OreSpawn_KrakenTooth, item.krakentooth.name
+OreSpawn:OreSpawn_GodzillaScale, item.godzillascale.name
+OreSpawn:OreSpawn_GreenGoo, item.greengoo.name
+OreSpawn:OreSpawn_SpiderRobotKit, item.spiderrobotkit.name
+OreSpawn:OreSpawn_AntRobotKit, item.antrobotkit.name
+OreSpawn:OreSpawn_ZooKeeper, item.zookeeper.name
+OreSpawn:OreSpawn_CreeperLauncher, item.creeperlauncher.name
+OreSpawn:OreSpawn_NetherLost, item.netherlost.name
+OreSpawn:OreSpawn_CrystalSticks, item.crystalsticks.name
+OreSpawn:OreSpawn_Sifter, item.sifter.name
+OreSpawn:OreSpawn_SunspotUrchin, item.sunspoturchin.name
+OreSpawn:OreSpawn_WaterBall, item.waterball.name
+OreSpawn:OreSpawn_LaserBall, item.laserball.name
+OreSpawn:OreSpawn_IceBall, item.iceball.name
+OreSpawn:OreSpawn_SmallRock, item.rocksmall.name
+OreSpawn:OreSpawn_Rock, item.rock.name
+OreSpawn:OreSpawn_RedRock, item.rockred.name
+OreSpawn:OreSpawn_CrystalRedRock, item.rockcrystalred.name
+OreSpawn:OreSpawn_CrystalGreenRock, item.rockcrystalgreen.name
+OreSpawn:OreSpawn_CrystalBlueRock, item.rockcrystalblue.name
+OreSpawn:OreSpawn_CrystalTNTRock, item.rockcrystaltnt.name
+OreSpawn:OreSpawn_GreenRock, item.rockgreen.name
+OreSpawn:OreSpawn_BlueRock, item.rockblue.name
+OreSpawn:OreSpawn_PurpleRock, item.rockpurple.name
+OreSpawn:OreSpawn_SpikeyRock, item.rockspikey.name
+OreSpawn:OreSpawn_TNTRock, item.rocktnt.name
+OreSpawn:OreSpawn_Acid, item.acid.name
+OreSpawn:OreSpawn_Irukandji, item.deadirukandji.name
+OreSpawn:OreSpawn_IrukandjiArrow, item.irukandjiarrow.name
+OreSpawn:OreSpawn_RayGun, item.RayGun.name
+OreSpawn:OreSpawn_SquidZooka, item.squidzookasmall.name
+OreSpawn:OreSpawn_SparkFish, item.sparkfish.name
+OreSpawn:OreSpawn_Salt, item.salt.name
+OreSpawn:OreSpawn_Popcorn, item.popcorn.name
+OreSpawn:OreSpawn_ButteredPopcorn, item.popcorn_buttered.name
+OreSpawn:OreSpawn_ButteredSaltedPopcorn, item.popcorn_buttered_salted.name
+OreSpawn:OreSpawn_PopcornBag, item.popcorn_bag.name
+OreSpawn:OreSpawn_Butter, item.butter.name
+OreSpawn:OreSpawn_CornDog, item.corndog_cooked.name
+OreSpawn:OreSpawn_Cheese, item.cheese.name
+OreSpawn:OreSpawn_RawCornDog, item.corndog_raw.name
+OreSpawn:OreSpawn_Peacock, item.cookedpeacock.name
+OreSpawn:OreSpawn_RawPeacock, item.rawpeacock.name
+OreSpawn:OreSpawn_Ruby, Ruby
+OreSpawn:OreSpawn_Amethyst, item.amethyst.name
+OreSpawn:OreSpawn_ThunderStaff, item.thunderstaff.name
+OreSpawn:OreSpawn_Wrench, item.wrench.name
+OreSpawn:OreSpawn_RawBacon, item.bacon.name
+OreSpawn:OreSpawn_Bacon, item.cookedbacon.name
+OreSpawn:OreSpawn_RawCrabMeat, item.crabmeat.name
+OreSpawn:OreSpawn_CrabMeat, item.cookedcrabmeat.name
+OreSpawn:OreSpawn_ButterCandy, item.buttercandy.name
+OreSpawn:OreSpawn_UraniumNugget, item.uranium_nugget.name
+OreSpawn:OreSpawn_TitaniumNugget, item.titanium_nugget.name
+OreSpawn:OreSpawn_GreenFish, item.greenfish.name
+OreSpawn:OreSpawn_BlueFish, item.bluefish.name
+OreSpawn:OreSpawn_PinkFish, item.pinkfish.name
+OreSpawn:OreSpawn_RockFish, item.rockfish.name
+OreSpawn:OreSpawn_WoodFish, item.woodfish.name
+OreSpawn:OreSpawn_GreyFish, item.greyfish.name
+OreSpawn:OreSpawn_Salad, item.salad.name
+OreSpawn:OreSpawn_BLT, item.blt_sandwich.name
+OreSpawn:OreSpawn_CrabbyPatty, item.crabbypatty.name
+OreSpawn:OreSpawn_BerthaHandle, item.bbhandle.name
+OreSpawn:OreSpawn_BerthaGuard, item.bbguard.name
+OreSpawn:OreSpawn_BerthaBlade, item.bbblade.name
+OreSpawn:OreSpawn_MolenoidNose, item.molenoidnose.name
+OreSpawn:OreSpawn_SeaMonsterScale, item.seamonsterscale.name
+OreSpawn:OreSpawn_WormTooth, item.wormtooth.name
+OreSpawn:OreSpawn_TRexTooth, item.trextooth.name
+OreSpawn:OreSpawn_CaterKillerJaw, item.caterkillerjaw.name
+OreSpawn:OreSpawn_SeaViperTongue, item.seavipertongue.name
+OreSpawn:OreSpawn_VortexEye, item.vortexeye.name
+OreSpawn:OreSpawn_WitherSkeletonEgg, item.eggwitherskeleton.name
+OreSpawn:OreSpawn_EnderDragonEgg, item.eggenderdragon.name
+OreSpawn:OreSpawn_SnowGolemEgg, item.eggsnowgolem.name
+OreSpawn:OreSpawn_IronGolemEgg, item.eggirongolem.name
+OreSpawn:OreSpawn_WitherBossEgg, item.eggwitherboss.name
+OreSpawn:OreSpawn_GirlfriendEgg, item.egggirlfriend.name
+OreSpawn:OreSpawn_BoyfriendEgg, item.eggboyfriend.name
+OreSpawn:OreSpawn_TheKingEgg, item.eggtheking.name
+OreSpawn:OreSpawn_TheQueenEgg, item.eggthequeen.name
+OreSpawn:OreSpawn_ThePrinceEgg, item.eggtheprince.name
+OreSpawn:OreSpawn_RedCowEgg, item.eggredcow.name
+OreSpawn:OreSpawn_CrystalCowEgg, item.eggcrystalcow.name
+OreSpawn:OreSpawn_GoldCowEgg, item.egggoldcow.name
+OreSpawn:OreSpawn_EnchantedCowEgg, item.eggenchantedcow.name
+OreSpawn:OreSpawn_MOTHRAEgg, item.eggMOTHRA.name
+OreSpawn:OreSpawn_AloEgg, item.eggalosaurus.name
+OreSpawn:OreSpawn_CryoEgg, item.eggcryolophosaurus.name
+OreSpawn:OreSpawn_CamaEgg, item.eggcamarasaurus.name
+OreSpawn:OreSpawn_VeloEgg, item.eggvelocityraptor.name
+OreSpawn:OreSpawn_HydroEgg, item.egghydrolisc.name
+OreSpawn:OreSpawn_BasilEgg, item.eggbasilisc.name
+OreSpawn:OreSpawn_DragonflyEgg, item.eggdragonfly.name
+OreSpawn:OreSpawn_EmperorScorpionEgg, item.eggemperorscorpion.name
+OreSpawn:OreSpawn_ScorpionEgg, item.eggscorpion.name
+OreSpawn:OreSpawn_CaveFisherEgg, item.eggcavefisher.name
+OreSpawn:OreSpawn_SpyroEgg, item.eggspyro.name
+OreSpawn:OreSpawn_BaryonyxEgg, item.eggbaryonyx.name
+OreSpawn:OreSpawn_GammaMetroidEgg, item.egggammametroid.name
+OreSpawn:OreSpawn_CockateilEgg, item.eggcockateil.name
+OreSpawn:OreSpawn_KyuubiEgg, item.eggkyuubi.name
+OreSpawn:OreSpawn_AlienEgg, item.eggalien.name
+OreSpawn:OreSpawn_AttackSquidEgg, item.eggattacksquid.name
+OreSpawn:OreSpawn_WaterDragonEgg, item.eggwaterdragon.name
+OreSpawn:OreSpawn_CephadromeEgg, item.eggcephadrome.name
+OreSpawn:OreSpawn_KrakenEgg, item.eggkraken.name
+OreSpawn:OreSpawn_LizardEgg, item.egglizard.name
+OreSpawn:OreSpawn_DragonEgg, item.eggdragon.name
+OreSpawn:OreSpawn_BeeEgg, item.eggbee.name
+OreSpawn:OreSpawn_TrooperBugEgg, item.eggtrooper.name
+OreSpawn:OreSpawn_SpitBugEgg, item.eggspit.name
+OreSpawn:OreSpawn_StinkBugEgg, item.eggstink.name
+OreSpawn:OreSpawn_OstrichEgg, item.eggostrich.name
+OreSpawn:OreSpawn_GazelleEgg, item.egggazelle.name
+OreSpawn:OreSpawn_ChipmunkEgg, item.eggchipmunk.name
+OreSpawn:OreSpawn_CreepingHorrorEgg, item.eggcreepinghorror.name
+OreSpawn:OreSpawn_TerribleTerrorEgg, item.eggterribleterror.name
+OreSpawn:OreSpawn_CliffRacerEgg, item.eggcliffracer.name
+OreSpawn:OreSpawn_TriffidEgg, item.eggtriffid.name
+OreSpawn:OreSpawn_PitchBlackEgg, item.eggnightmare.name
+OreSpawn:OreSpawn_LurkingTerrorEgg, item.egglurkingterror.name
+OreSpawn:OreSpawn_GodzillaEgg, item.egggodzilla.name
+OreSpawn:OreSpawn_SmallWormEgg, item.eggsmallworm.name
+OreSpawn:OreSpawn_MediumWormEgg, item.eggmediumworm.name
+OreSpawn:OreSpawn_LargeWormEgg, item.egglargeworm.name
+OreSpawn:OreSpawn_CassowaryEgg, item.eggcassowary.name
+OreSpawn:OreSpawn_CloudSharkEgg, item.eggcloudshark.name
+OreSpawn:OreSpawn_GoldFishEgg, item.egggoldfish.name
+OreSpawn:OreSpawn_LeafMonsterEgg, item.eggleafmonster.name
+OreSpawn:OreSpawn_TshirtEgg, item.eggtshirt.name
+OreSpawn:OreSpawn_EnderKnightEgg, item.eggenderknight.name
+OreSpawn:OreSpawn_EnderReaperEgg, item.eggenderreaper.name
+OreSpawn:OreSpawn_BeaverEgg, item.eggbeaver.name
+OreSpawn:OreSpawn_DungeonBeastEgg, item.eggdungeonbeast.name
+OreSpawn:OreSpawn_RotatorEgg, item.eggrotator.name
+OreSpawn:OreSpawn_VortexEgg, item.eggvortex.name
+OreSpawn:OreSpawn_PeacockEgg, item.eggpeacock.name
+OreSpawn:OreSpawn_FairyEgg, item.eggfairy.name
+OreSpawn:OreSpawn_RatEgg, item.eggrat.name
+OreSpawn:OreSpawn_FlounderEgg, item.eggflounder.name
+OreSpawn:OreSpawn_WhaleEgg, item.eggwhale.name
+OreSpawn:OreSpawn_IrukandjiEgg, item.eggirukandji.name
+OreSpawn:OreSpawn_SkateEgg, item.eggskate.name
+OreSpawn:OreSpawn_UrchinEgg, item.eggurchin.name
+OreSpawn:OreSpawn_Robot1Egg, item.eggrobot1.name
+OreSpawn:OreSpawn_Robot2Egg, item.eggrobot2.name
+OreSpawn:OreSpawn_Robot3Egg, item.eggrobot3.name
+OreSpawn:OreSpawn_Robot4Egg, item.eggrobot4.name
+OreSpawn:OreSpawn_GhostEgg, item.eggghost.name
+OreSpawn:OreSpawn_GhostSkellyEgg, item.eggghostskelly.name
+OreSpawn:OreSpawn_BrownAntEgg, item.eggbrownant.name
+OreSpawn:OreSpawn_RedAntEgg, item.eggredant.name
+OreSpawn:OreSpawn_RainbowAntEgg, item.eggrainbowant.name
+OreSpawn:OreSpawn_UnstableAntEgg, item.eggunstableant.name
+OreSpawn:OreSpawn_TermiteEgg, item.eggtermite.name
+OreSpawn:OreSpawn_ButterflyEgg, item.eggbutterfly.name
+OreSpawn:OreSpawn_MothEgg, item.eggmoth.name
+OreSpawn:OreSpawn_MosquitoEgg, item.eggmosquito.name
+OreSpawn:OreSpawn_FireflyEgg, item.eggfirefly.name
+OreSpawn:OreSpawn_TRexEgg, item.eggtrex.name
+OreSpawn:OreSpawn_HerculesEgg, item.egghercules.name
+OreSpawn:OreSpawn_MantisEgg, item.eggmantis.name
+OreSpawn:OreSpawn_StinkyEgg, item.eggstinky.name
+OreSpawn:OreSpawn_Robot5Egg, item.eggrobot5.name
+OreSpawn:OreSpawn_CoinEgg, item.eggcoin.name
+OreSpawn:OreSpawn_EasterBunnyEgg, item.eggeasterbunny.name
+OreSpawn:OreSpawn_MolenoidEgg, item.eggmolenoid.name
+OreSpawn:OreSpawn_SeaMonsterEgg, item.eggseamonster.name
+OreSpawn:OreSpawn_SeaViperEgg, item.eggseaviper.name
+OreSpawn:OreSpawn_CaterKillerEgg, item.eggcaterkiller.name
+OreSpawn:OreSpawn_RubberDuckyEgg, item.eggrubberducky.name
+OreSpawn:OreSpawn_HammerheadEgg, item.egghammerhead.name
+OreSpawn:OreSpawn_LeonEgg, item.eggleon.name
+OreSpawn:OreSpawn_CriminalEgg, item.eggcriminal.name
+OreSpawn:OreSpawn_BrutalflyEgg, item.eggbrutalfly.name
+OreSpawn:OreSpawn_NastysaurusEgg, item.eggnastysaurus.name
+OreSpawn:OreSpawn_PointysaurusEgg, item.eggpointysaurus.name
+OreSpawn:OreSpawn_CricketEgg, item.eggcricket.name
+OreSpawn:OreSpawn_ThePrincessEgg, item.eggtheprincess.name
+OreSpawn:OreSpawn_FrogEgg, item.eggfrog.name
+OreSpawn:OreSpawn_JefferyEgg, item.eggrobot6.name
+OreSpawn:OreSpawn_AntRobotEgg, item.eggantrobot.name
+OreSpawn:OreSpawn_SpiderRobotEgg, item.eggspiderrobot.name
+OreSpawn:OreSpawn_SpiderDriverEgg, item.eggspiderdriver.name
+OreSpawn:OreSpawn_CrabEgg, item.eggcrab.name
+OreSpawn:OreSpawn_CageEmpty, item.cageempty.name
+OreSpawn:OreSpawn_CagedSpider, item.cagespider.name
+OreSpawn:OreSpawn_CagedBat, item.cagebat.name
+OreSpawn:OreSpawn_CagedCow, item.cagecow.name
+OreSpawn:OreSpawn_CagePig, item.cagepig.name
+OreSpawn:OreSpawn_CagedSquid, item.cagesquid.name
+OreSpawn:OreSpawn_CagedChicken, item.cagechicken.name
+OreSpawn:OreSpawn_CagedCreeper, item.cagecreeper.name
+OreSpawn:OreSpawn_CagedSkeleton, item.cageskeleton.name
+OreSpawn:OreSpawn_CagedZombie, item.cagezombie.name
+OreSpawn:OreSpawn_CagedSlime, item.cageslime.name
+OreSpawn:OreSpawn_CagedGhast, item.cageghast.name
+OreSpawn:OreSpawn_CagedZombiePigman, item.cagezombiepigman.name
+OreSpawn:OreSpawn_CagedEnderman, item.cageenderman.name
+OreSpawn:OreSpawn_CagedCaveSpider, item.cagecavespider.name
+OreSpawn:OreSpawn_CagedSilverfish, item.cagesilverfish.name
+OreSpawn:OreSpawn_CagedMagmaCube, item.cagemagmacube.name
+OreSpawn:OreSpawn_CagedWitch, item.cagewitch.name
+OreSpawn:OreSpawn_CagedSheep, item.cagesheep.name
+OreSpawn:OreSpawn_CagedWolf, item.cagewolf.name
+OreSpawn:OreSpawn_CagedMooshroom, item.cagemooshroom.name
+OreSpawn:OreSpawn_CagedOcelot, item.cageocelot.name
+OreSpawn:OreSpawn_CagedBlaze, item.cageblaze.name
+OreSpawn:OreSpawn_CagedGirlfriend, item.cagegirlfriend.name
+OreSpawn:OreSpawn_CagedBoyfriend, item.cageboyfriend.name
+OreSpawn:OreSpawn_CagedWitherSkeleton, item.cagewitherskeleton.name
+OreSpawn:OreSpawn_CagedEnderDragon, item.cageenderdragon.name
+OreSpawn:OreSpawn_CagedSnowGolem, item.cagesnowgolem.name
+OreSpawn:OreSpawn_CagedIronGolem, item.cageirongolem.name
+OreSpawn:OreSpawn_CagedWitherBoss, item.cagewitherboss.name
+OreSpawn:OreSpawn_CagedRedCow, item.cageredcow.name
+OreSpawn:OreSpawn_CagedCrystalCow, item.cagecrystalcow.name
+OreSpawn:OreSpawn_CagedVillager, item.cagevillager.name
+OreSpawn:OreSpawn_CagedGoldCow, item.cagegoldcow.name
+OreSpawn:OreSpawn_CagedEnchantedCow, item.cageenchantedcow.name
+OreSpawn:OreSpawn_CagedMOTHRA, item.cageMOTHRA.name
+OreSpawn:OreSpawn_CagedAlo, item.cagealosaurus.name
+OreSpawn:OreSpawn_CagedCryo, item.cagecryolophosaurus.name
+OreSpawn:OreSpawn_CagedCama, item.cagecamarasaurus.name
+OreSpawn:OreSpawn_CagedVelo, item.cagevelocityraptor.name
+OreSpawn:OreSpawn_CagedHydro, item.cagehydrolisc.name
+OreSpawn:OreSpawn_CagedBasil, item.cagebasilisc.name
+OreSpawn:OreSpawn_CagedDragonfly, item.cagedragonfly.name
+OreSpawn:OreSpawn_CagedEmperorScorpion, item.cageemperorscorpion.name
+OreSpawn:OreSpawn_CagedScorpion, item.cagescorpion.name
+OreSpawn:OreSpawn_CagedCaveFisher, item.cagecavefisher.name
+OreSpawn:OreSpawn_CagedSpyro, item.cagespyro.name
+OreSpawn:OreSpawn_CagedBaryonyx, item.cagebaryonyx.name
+OreSpawn:OreSpawn_CagedGammaMetroid, item.cagegammametroid.name
+OreSpawn:OreSpawn_CagedCockateil, item.cagecockateil.name
+OreSpawn:OreSpawn_CagedKyuubi, item.cagekyuubi.name
+OreSpawn:OreSpawn_CagedAlien, item.cagealien.name
+OreSpawn:OreSpawn_Elevator, item.elevator.name
+OreSpawn:OreSpawn_CagedAttackSquid, item.cageattacksquid.name
+OreSpawn:OreSpawn_CagedWaterDragon, item.cagewaterdragon.name
+OreSpawn:OreSpawn_CagedCephadrome, item.cagecephadrome.name
+OreSpawn:OreSpawn_CagedKraken, item.cagekraken.name
+OreSpawn:OreSpawn_CagedLizard, item.cagelizard.name
+OreSpawn:OreSpawn_CagedDragon, item.cagedragon.name
+OreSpawn:OreSpawn_CagedBee, item.cagebee.name
+OreSpawn:OreSpawn_CagedHorse, item.cagehorse.name
+OreSpawn:OreSpawn_CagedFirefly, item.cagefirefly.name
+OreSpawn:OreSpawn_CagedChipmunk, item.cagechipmunk.name
+OreSpawn:OreSpawn_CagedGazelle, item.cagegazelle.name
+OreSpawn:OreSpawn_CagedOstrich, item.cageostrich.name
+OreSpawn:OreSpawn_CagedTrooper, item.cagetrooper.name
+OreSpawn:OreSpawn_CagedSpit, item.cagespit.name
+OreSpawn:OreSpawn_CagedStink, item.cagestink.name
+OreSpawn:OreSpawn_CagedCreepingHorror, item.cagecreepinghorror.name
+OreSpawn:OreSpawn_CagedTerribleTerror, item.cageterribleterror.name
+OreSpawn:OreSpawn_CagedCliffRacer, item.cagecliffracer.name
+OreSpawn:OreSpawn_CagedTriffid, item.cagetriffid.name
+OreSpawn:OreSpawn_CagedPitchBlack, item.cagenightmare.name
+OreSpawn:OreSpawn_CagedLurkingTerror, item.cagelurkingterror.name
+OreSpawn:OreSpawn_CagedSmallWorm, item.cagesmallworm.name
+OreSpawn:OreSpawn_CagedMediumWorm, item.cagemediumworm.name
+OreSpawn:OreSpawn_CagedLargeWorm, item.cagelargeworm.name
+OreSpawn:OreSpawn_CagedCassowary, item.cagecassowary.name
+OreSpawn:OreSpawn_CagedCloudShark, item.cagecloudshark.name
+OreSpawn:OreSpawn_CagedGoldFish, item.cagegoldfish.name
+OreSpawn:OreSpawn_CagedLeafMonster, item.cageleafmonster.name
+OreSpawn:OreSpawn_CagedEnderKnight, item.cageenderknight.name
+OreSpawn:OreSpawn_CagedEnderReaper, item.cageenderreaper.name
+OreSpawn:OreSpawn_CagedBeaver, item.cagebeaver.name
+OreSpawn:OreSpawn_CagedUrchin, item.cageurchin.name
+OreSpawn:OreSpawn_CagedFlounder, item.cageflounder.name
+OreSpawn:OreSpawn_CagedSkate, item.cageskate.name
+OreSpawn:OreSpawn_CagedRotator, item.cagerotator.name
+OreSpawn:OreSpawn_CagedPeacock, item.cagepeacock.name
+OreSpawn:OreSpawn_CagedFairy, item.cagefairy.name
+OreSpawn:OreSpawn_CagedDungeonBeast, item.cagedungeonbeast.name
+OreSpawn:OreSpawn_CagedVortex, item.cagevortex.name
+OreSpawn:OreSpawn_CagedRat, item.cagerat.name
+OreSpawn:OreSpawn_CagedWhale, item.cagewhale.name
+OreSpawn:OreSpawn_CagedIrukandji, item.cageirukandji.name
+OreSpawn:OreSpawn_CagedTRex, item.cagetrex.name
+OreSpawn:OreSpawn_CagedHercules, item.cagehercules.name
+OreSpawn:OreSpawn_CagedMantis, item.cagemantis.name
+OreSpawn:OreSpawn_CagedStinky, item.cagestinky.name
+OreSpawn:OreSpawn_CagedEasterBunny, item.cageeasterbunny.name
+OreSpawn:OreSpawn_CagedCaterKiller, item.cagecaterkiller.name
+OreSpawn:OreSpawn_CagedMolenoid, item.cagemolenoid.name
+OreSpawn:OreSpawn_CagedSeaMonster, item.cageseamonster.name
+OreSpawn:OreSpawn_CagedSeaViper, item.cageseaviper.name
+OreSpawn:OreSpawn_CagedLeon, item.cageleon.name
+OreSpawn:OreSpawn_CagedHammerhead, item.cagehammerhead.name
+OreSpawn:OreSpawn_CagedRubberDucky, item.cagerubberducky.name
+OreSpawn:OreSpawn_CagedCriminal, item.cagecriminal.name
+OreSpawn:OreSpawn_CagedBrutalfly, item.cagebrutalfly.name
+OreSpawn:OreSpawn_CagedNastysaurus, item.cagenastysaurus.name
+OreSpawn:OreSpawn_CagedPointysaurus, item.cagepointysaurus.name
+OreSpawn:OreSpawn_CagedCricket, item.cagecricket.name
+OreSpawn:OreSpawn_CagedFrog, item.cagefrog.name
+OreSpawn:OreSpawn_CagedSpiderDriver, item.cagespiderdriver.name
+OreSpawn:OreSpawn_CagedCrab, item.cagecrab.name
+OreSpawn:OreSpawn_Strawberry, item.strawberry.name
+OreSpawn:OreSpawn_CrystalApple, item.crystalapple.name
+OreSpawn:OreSpawn_Love, item.heart.name
+OreSpawn:OreSpawn_Cherry, item.cherries.name
+OreSpawn:OreSpawn_Peach, item.peach.name
+OreSpawn:OreSpawn_Radish, item.radish.name
+OreSpawn:OreSpawn_Rice, item.rice.name
+OreSpawn:OreSpawn_CornCob, item.corn_seed.name
+OreSpawn:OreSpawn_Quinoa, item.quinoa.name
+OreSpawn:OreSpawn_Tomato, item.tomato_seed.name
+OreSpawn:OreSpawn_Lettuce, item.lettuce_seed.name
+OreSpawn:OreSpawn_StrawberrySeed, item.strawberry_seed.name
+OreSpawn:OreSpawn_ButterflySeed, item.butterfly_seed.name
+OreSpawn:OreSpawn_MothSeed, item.moth_seed.name
+OreSpawn:OreSpawn_MosquitoSeed, item.mosquito_seed.name
+OreSpawn:OreSpawn_FireflySeed, item.firefly_seed.name
+OreSpawn:OreSpawn_MagicApple, item.magicapple.name
+OreSpawn:OreSpawn_RandomDungeon, item.randomdungeon.name
+OreSpawn:OreSpawn_MinersDream, item.minersdream.name
+OreSpawn:OreSpawn_UltimateHelmet, item.ultimate_helmet.name
+OreSpawn:OreSpawn_UltimateBody, item.ultimate_chest.name
+OreSpawn:OreSpawn_UltimateLegs, item.ultimate_leggings.name
+OreSpawn:OreSpawn_UltimateBoots, item.ultimate_boots.name
+OreSpawn:OreSpawn_LavaEelHelmet, item.lavaeel_helmet.name
+OreSpawn:OreSpawn_LavaEelBody, item.lavaeel_chest.name
+OreSpawn:OreSpawn_LavaEelLegs, item.lavaeel_leggings.name
+OreSpawn:OreSpawn_LavaEelBoots, item.lavaeel_boots.name
+OreSpawn:OreSpawn_MothScaleHelmet, item.mothscale_helmet.name
+OreSpawn:OreSpawn_MothScaleBody, item.mothscale_chest.name
+OreSpawn:OreSpawn_MothScaleLegs, item.mothscale_leggings.name
+OreSpawn:OreSpawn_MothScaleBoots, item.mothscale_boots.name
+OreSpawn:OreSpawn_AppleSeed, item.appletree_seed.name
+OreSpawn:OreSpawn_CherrySeed, item.cherrytree_seed.name
+OreSpawn:OreSpawn_PeachSeed, item.peachtree_seed.name
+OreSpawn:OreSpawn_StepUp, item.step_up.name
+OreSpawn:OreSpawn_StepDown, item.step_down.name
+OreSpawn:OreSpawn_StepAccross, item.step_accross.name
+OreSpawn:OreSpawn_EmeraldHelmet, item.emerald_helmet.name
+OreSpawn:OreSpawn_EmeraldBody, item.emerald_chest.name
+OreSpawn:OreSpawn_EmeraldLegs, item.emerald_leggings.name
+OreSpawn:OreSpawn_EmeraldBoots, item.emerald_boots.name
+OreSpawn:OreSpawn_ExperienceCatcher, item.experiencecatcher.name
+OreSpawn:OreSpawn_DeadStinkBug, item.deadstinkbug.name
+OreSpawn:OreSpawn_ExperienceTreeSeed, item.experiencetree_seed.name
+OreSpawn:OreSpawn_ExperienceHelmet, item.experience_helmet.name
+OreSpawn:OreSpawn_ExperienceBody, item.experience_chest.name
+OreSpawn:OreSpawn_ExperienceLegs, item.experience_leggings.name
+OreSpawn:OreSpawn_ExperienceBoots, item.experience_boots.name
+OreSpawn:OreSpawn_RubyHelmet, Ruby Helmet
+OreSpawn:OreSpawn_RubyBody, item.ruby_chest.name
+OreSpawn:OreSpawn_RubyLegs, Ruby Leggings
+OreSpawn:OreSpawn_RubyBoots, Ruby Boots
+OreSpawn:OreSpawn_AmethystHelmet, item.amethyst_helmet.name
+OreSpawn:OreSpawn_AmethystBody, item.amethyst_chest.name
+OreSpawn:OreSpawn_AmethystLegs, item.amethyst_leggings.name
+OreSpawn:OreSpawn_AmethystBoots, item.amethyst_boots.name
+OreSpawn:OreSpawn_ZooCage2, item.zoo2.name
+OreSpawn:OreSpawn_ZooCage4, item.zoo4.name
+OreSpawn:OreSpawn_ZooCage6, item.zoo6.name
+OreSpawn:OreSpawn_ZooCage8, item.zoo8.name
+OreSpawn:OreSpawn_ZooCage10, item.zoo10.name
+OreSpawn:OreSpawn_InstantShelter, item.instantshelter.name
+OreSpawn:OreSpawn_InstantGarden, item.instantgarden.name
+OreSpawn:OreSpawn_CrystalPinkHelmet, item.pink_helmet.name
+OreSpawn:OreSpawn_CrystalPinkBody, item.pink_chest.name
+OreSpawn:OreSpawn_CrystalPinkLegs, item.pink_leggings.name
+OreSpawn:OreSpawn_CrystalPinkBoots, item.pink_boots.name
+OreSpawn:OreSpawn_TigersEyeHelmet, item.tigerseye_helmet.name
+OreSpawn:OreSpawn_TigersEyeBody, item.tigerseye_chest.name
+OreSpawn:OreSpawn_TigersEyeLegs, item.tigerseye_leggings.name
+OreSpawn:OreSpawn_TigersEyeBoots, item.tigerseye_boots.name
+OreSpawn:OreSpawn_PeacockFeatherBoots, item.peacock_boots.name
+OreSpawn:OreSpawn_PeacockFeatherHelmet, item.peacock_helmet.name
+OreSpawn:OreSpawn_PeacockFeatherBody, item.peacock_chest.name
+OreSpawn:OreSpawn_PeacockFeatherLegs, item.peacock_leggings.name
+OreSpawn:OreSpawn_MobzillaHelmet, item.mobzilla_helmet.name
+OreSpawn:OreSpawn_MobzillaBody, item.mobzilla_chest.name
+OreSpawn:OreSpawn_MobzillaLegs, item.mobzilla_leggings.name
+OreSpawn:OreSpawn_MobzillaBoots, item.mobzilla_boots.name
+OreSpawn:OreSpawn_RoyalHelmet, item.royal_helmet.name
+OreSpawn:OreSpawn_RoyalBody, item.royal_chest.name
+OreSpawn:OreSpawn_RoyalLegs, item.royal_leggings.name
+OreSpawn:OreSpawn_RoyalBoots, item.royal_boots.name
+OreSpawn:OreSpawn_LapisHelmet, item.lapis_helmet.name
+OreSpawn:OreSpawn_LapisBody, item.lapis_chest.name
+OreSpawn:OreSpawn_LapisLegs, item.lapis_leggings.name
+OreSpawn:OreSpawn_LapisBoots, item.lapis_boots.name
+OreSpawn:OreSpawn_QueenHelmet, item.queen_helmet.name
+OreSpawn:OreSpawn_QueenBody, item.queen_chest.name
+OreSpawn:OreSpawn_QueenLegs, item.queen_leggings.name
+OreSpawn:OreSpawn_QueenBoots, item.queen_boots.name
 ProjectE:item.pe_philosophers_stone, Philosopher's Stone
 ProjectE:item.pe_alchemical_bag:0, Alchemical Bag (White)
 ProjectE:item.pe_alchemical_bag:1, Alchemical Bag (Orange)
@@ -25578,6 +26391,215 @@ ThermalDynamics:cover:0, Sponge Cover
 ThermalDynamics:cover:0, Path Cover
 ThermalDynamics:cover:0, Rope Ladder Cover
 ThermalDynamics:cover:0, Scaffolding Cover
+ThermalDynamics:cover:0, tile.orespider.name Cover
+ThermalDynamics:cover:0, tile.orebat.name Cover
+ThermalDynamics:cover:0, tile.orecow.name Cover
+ThermalDynamics:cover:0, tile.orepig.name Cover
+ThermalDynamics:cover:0, tile.oresquid.name Cover
+ThermalDynamics:cover:0, tile.orechicken.name Cover
+ThermalDynamics:cover:0, tile.orecreeper.name Cover
+ThermalDynamics:cover:0, tile.oreskeleton.name Cover
+ThermalDynamics:cover:0, tile.orezombie.name Cover
+ThermalDynamics:cover:0, tile.oreslime.name Cover
+ThermalDynamics:cover:0, tile.oreghast.name Cover
+ThermalDynamics:cover:0, tile.orezombiepigman.name Cover
+ThermalDynamics:cover:0, tile.oreenderman.name Cover
+ThermalDynamics:cover:0, tile.orecavespider.name Cover
+ThermalDynamics:cover:0, tile.oresilverfish.name Cover
+ThermalDynamics:cover:0, tile.oremagmacube.name Cover
+ThermalDynamics:cover:0, tile.orewitch.name Cover
+ThermalDynamics:cover:0, tile.oresheep.name Cover
+ThermalDynamics:cover:0, tile.orewolf.name Cover
+ThermalDynamics:cover:0, tile.oremooshroom.name Cover
+ThermalDynamics:cover:0, tile.orewitherboss.name Cover
+ThermalDynamics:cover:0, tile.oregirlfriend.name Cover
+ThermalDynamics:cover:0, tile.oreboyfriend.name Cover
+ThermalDynamics:cover:0, tile.oreredcow.name Cover
+ThermalDynamics:cover:0, tile.orecrystalcow.name Cover
+ThermalDynamics:cover:0, tile.orevillager.name Cover
+ThermalDynamics:cover:0, tile.oregoldcow.name Cover
+ThermalDynamics:cover:0, tile.oreenchantedcow.name Cover
+ThermalDynamics:cover:0, tile.oreMOTHRA.name Cover
+ThermalDynamics:cover:0, tile.orealosaurus.name Cover
+ThermalDynamics:cover:0, tile.orecryolophosaurus.name Cover
+ThermalDynamics:cover:0, tile.orecamarasaurus.name Cover
+ThermalDynamics:cover:0, tile.orevelocityraptor.name Cover
+ThermalDynamics:cover:0, tile.orehydrolisc.name Cover
+ThermalDynamics:cover:0, tile.orebasilisc.name Cover
+ThermalDynamics:cover:0, tile.oredragonfly.name Cover
+ThermalDynamics:cover:0, tile.oreemperorscorpion.name Cover
+ThermalDynamics:cover:0, tile.orescorpion.name Cover
+ThermalDynamics:cover:0, tile.orecavefisher.name Cover
+ThermalDynamics:cover:0, tile.orespyro.name Cover
+ThermalDynamics:cover:0, tile.orebaryonyx.name Cover
+ThermalDynamics:cover:0, tile.oregammametroid.name Cover
+ThermalDynamics:cover:0, tile.orecockateil.name Cover
+ThermalDynamics:cover:0, tile.orekyuubi.name Cover
+ThermalDynamics:cover:0, tile.orealien.name Cover
+ThermalDynamics:cover:0, tile.oreirongolem.name Cover
+ThermalDynamics:cover:0, tile.oresnowgolem.name Cover
+ThermalDynamics:cover:0, tile.oreenderdragon.name Cover
+ThermalDynamics:cover:0, tile.oreocelot.name Cover
+ThermalDynamics:cover:0, tile.orewitherskeleton.name Cover
+ThermalDynamics:cover:0, tile.oreblaze.name Cover
+ThermalDynamics:cover:0, tile.oreattacksquid.name Cover
+ThermalDynamics:cover:0, tile.orewaterdragon.name Cover
+ThermalDynamics:cover:0, tile.orecephadrome.name Cover
+ThermalDynamics:cover:0, tile.orekraken.name Cover
+ThermalDynamics:cover:0, tile.orelizard.name Cover
+ThermalDynamics:cover:0, tile.oredragon.name Cover
+ThermalDynamics:cover:0, tile.orebee.name Cover
+ThermalDynamics:cover:0, tile.orehorse.name Cover
+ThermalDynamics:cover:0, tile.oretrooper.name Cover
+ThermalDynamics:cover:0, tile.orespit.name Cover
+ThermalDynamics:cover:0, tile.orestink.name Cover
+ThermalDynamics:cover:0, tile.oreostrich.name Cover
+ThermalDynamics:cover:0, tile.oregazelle.name Cover
+ThermalDynamics:cover:0, tile.orechipmunk.name Cover
+ThermalDynamics:cover:0, tile.orecreepinghorror.name Cover
+ThermalDynamics:cover:0, tile.oreterribleterror.name Cover
+ThermalDynamics:cover:0, tile.orecliffracer.name Cover
+ThermalDynamics:cover:0, tile.oretriffid.name Cover
+ThermalDynamics:cover:0, tile.orenightmare.name Cover
+ThermalDynamics:cover:0, tile.orelurkingterror.name Cover
+ThermalDynamics:cover:0, tile.oregodzillapart.name Cover
+ThermalDynamics:cover:0, tile.oregodzilla.name Cover
+ThermalDynamics:cover:0, tile.orethekingpart.name Cover
+ThermalDynamics:cover:0, tile.oretheking.name Cover
+ThermalDynamics:cover:0, tile.orethequeenpart.name Cover
+ThermalDynamics:cover:0, tile.orethequeen.name Cover
+ThermalDynamics:cover:0, tile.oresmallworm.name Cover
+ThermalDynamics:cover:0, tile.oremediumworm.name Cover
+ThermalDynamics:cover:0, tile.orelargeworm.name Cover
+ThermalDynamics:cover:0, tile.orecassowary.name Cover
+ThermalDynamics:cover:0, tile.orecloudshark.name Cover
+ThermalDynamics:cover:0, tile.oregoldfish.name Cover
+ThermalDynamics:cover:0, tile.oreleafmonster.name Cover
+ThermalDynamics:cover:0, tile.oretshirt.name Cover
+ThermalDynamics:cover:0, tile.oreenderknight.name Cover
+ThermalDynamics:cover:0, tile.oreenderreaper.name Cover
+ThermalDynamics:cover:0, tile.orebeaver.name Cover
+ThermalDynamics:cover:0, tile.oreurchin.name Cover
+ThermalDynamics:cover:0, tile.oreflounder.name Cover
+ThermalDynamics:cover:0, tile.oreskate.name Cover
+ThermalDynamics:cover:0, tile.orerotator.name Cover
+ThermalDynamics:cover:0, tile.orepeacock.name Cover
+ThermalDynamics:cover:0, tile.orefairy.name Cover
+ThermalDynamics:cover:0, tile.oredungeonbeast.name Cover
+ThermalDynamics:cover:0, tile.orevortex.name Cover
+ThermalDynamics:cover:0, tile.orerat.name Cover
+ThermalDynamics:cover:0, tile.orewhale.name Cover
+ThermalDynamics:cover:0, tile.oreirukandji.name Cover
+ThermalDynamics:cover:0, tile.oretrex.name Cover
+ThermalDynamics:cover:0, tile.orehercules.name Cover
+ThermalDynamics:cover:0, tile.oremantis.name Cover
+ThermalDynamics:cover:0, tile.orestinky.name Cover
+ThermalDynamics:cover:0, tile.oreeasterbunny.name Cover
+ThermalDynamics:cover:0, tile.orecaterkiller.name Cover
+ThermalDynamics:cover:0, tile.oremolenoid.name Cover
+ThermalDynamics:cover:0, tile.oreseamonster.name Cover
+ThermalDynamics:cover:0, tile.oreseaviper.name Cover
+ThermalDynamics:cover:0, tile.oreleon.name Cover
+ThermalDynamics:cover:0, tile.orehammerhead.name Cover
+ThermalDynamics:cover:0, tile.orerubberducky.name Cover
+ThermalDynamics:cover:0, tile.orecriminal.name Cover
+ThermalDynamics:cover:0, tile.orebrutalfly.name Cover
+ThermalDynamics:cover:0, tile.orenastysaurus.name Cover
+ThermalDynamics:cover:0, tile.orepointysaurus.name Cover
+ThermalDynamics:cover:0, tile.orecricket.name Cover
+ThermalDynamics:cover:0, tile.orefrog.name Cover
+ThermalDynamics:cover:0, tile.orespiderdriver.name Cover
+ThermalDynamics:cover:0, tile.orecrab.name Cover
+ThermalDynamics:cover:0, tile.oresalt.name Cover
+ThermalDynamics:cover:0, tile.blockteleport.name Cover
+ThermalDynamics:cover:0, tile.moledirt.name Cover
+ThermalDynamics:cover:0, tile.oretitanium.name Cover
+ThermalDynamics:cover:0, tile.oreuranium.name Cover
+ThermalDynamics:cover:0, tile.blocktitanium.name Cover
+ThermalDynamics:cover:0, tile.blockmobzillascale.name Cover
+ThermalDynamics:cover:0, tile.blockuranium.name Cover
+ThermalDynamics:cover:0, tile.lavafoam.name Cover
+ThermalDynamics:cover:0, tile.oreruby.name Cover
+ThermalDynamics:cover:0, tile.blockruby.name Cover
+ThermalDynamics:cover:0, tile.oreamethyst.name Cover
+ThermalDynamics:cover:0, tile.blockamethyst.name Cover
+ThermalDynamics:cover:0, tile.crystalpink_block.name Cover
+ThermalDynamics:cover:0, tile.tigerseye_block.name Cover
+ThermalDynamics:cover:0, tile.pizza.name Cover
+ThermalDynamics:cover:0, tile.ducttape.name Cover
+ThermalDynamics:cover:0, tile.crystalstone.name Cover
+ThermalDynamics:cover:0, tile.crystalrat.name Cover
+ThermalDynamics:cover:0, tile.redanttroll.name Cover
+ThermalDynamics:cover:0, tile.termitetroll.name Cover
+ThermalDynamics:cover:0, tile.crystalfairy.name Cover
+ThermalDynamics:cover:0, tile.crystalcoal.name Cover
+ThermalDynamics:cover:0, tile.crystalgrass.name Cover
+ThermalDynamics:cover:0, tile.crystalcrystal.name Cover
+ThermalDynamics:cover:0, tile.tigerseye.name Cover
+ThermalDynamics:cover:0, tile.crystalplanks.name Cover
+ThermalDynamics:cover:0, tile.crystalworkbench.name Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, Unnamed Block, report to mod author. Cover
+ThermalDynamics:cover:0, tile.corn_0.name Cover
+ThermalDynamics:cover:0, tile.corn_1.name Cover
+ThermalDynamics:cover:0, tile.corn_2.name Cover
+ThermalDynamics:cover:0, tile.corn_3.name Cover
+ThermalDynamics:cover:0, tile.quinoa_0.name Cover
+ThermalDynamics:cover:0, tile.quinoa_1.name Cover
+ThermalDynamics:cover:0, tile.quinoa_2.name Cover
+ThermalDynamics:cover:0, tile.quinoa_3.name Cover
+ThermalDynamics:cover:0, tile.tomato_0.name Cover
+ThermalDynamics:cover:0, tile.tomato_1.name Cover
+ThermalDynamics:cover:0, tile.tomato_2.name Cover
+ThermalDynamics:cover:0, tile.tomato_3.name Cover
+ThermalDynamics:cover:0, tile.lettuce_0.name Cover
+ThermalDynamics:cover:0, tile.lettuce_1.name Cover
+ThermalDynamics:cover:0, tile.lettuce_2.name Cover
+ThermalDynamics:cover:0, tile.lettuce_3.name Cover
+ThermalDynamics:cover:0, tile.leaves_apple.name Cover
+ThermalDynamics:cover:0, tile.leaves_experience.name Cover
+ThermalDynamics:cover:0, tile.leaves_scary.name Cover
+ThermalDynamics:cover:0, tile.leaves_cherry.name Cover
+ThermalDynamics:cover:0, tile.leaves_peach.name Cover
+ThermalDynamics:cover:0, tile.skytreelog.name Cover
+ThermalDynamics:cover:0, tile.duplicatortreelog.name Cover
+ThermalDynamics:cover:0, tile.experiencesapling.name Cover
+ThermalDynamics:cover:0, tile.crystalsapling.name Cover
+ThermalDynamics:cover:0, tile.crystalsapling2.name Cover
+ThermalDynamics:cover:0, tile.crystalsapling3.name Cover
+ThermalDynamics:cover:0, tile.flower_pink.name Cover
+ThermalDynamics:cover:0, tile.flower_blue.name Cover
+ThermalDynamics:cover:0, tile.flower_black.name Cover
+ThermalDynamics:cover:0, tile.flower_scary.name Cover
+ThermalDynamics:cover:0, tile.crystalflower_red.name Cover
+ThermalDynamics:cover:0, tile.crystalflower_green.name Cover
+ThermalDynamics:cover:0, tile.crystalflower_blue.name Cover
+ThermalDynamics:cover:0, tile.crystalflower_yellow.name Cover
+ThermalDynamics:cover:0, tile.crystaltreeleaves.name Cover
+ThermalDynamics:cover:0, tile.crystaltreeleaves2.name Cover
+ThermalDynamics:cover:0, tile.crystaltreeleaves3.name Cover
+ThermalDynamics:cover:0, tile.crystaltreelog.name Cover
+ThermalDynamics:cover:0, tile.extremetorch.name Cover
+ThermalDynamics:cover:0, tile.crystaltorch.name Cover
+ThermalDynamics:cover:0, tile.krakenrepellent.name Cover
+ThermalDynamics:cover:0, tile.creeperrepellent.name Cover
+ThermalDynamics:cover:0, tile.island.name Cover
+ThermalDynamics:cover:0, tile.kingspawner.name Cover
+ThermalDynamics:cover:0, tile.queenspawner.name Cover
+ThermalDynamics:cover:0, tile.dungeonspawner.name Cover
+ThermalDynamics:cover:0, tile.blockenderpearl.name Cover
+ThermalDynamics:cover:0, tile.blockeyeofender.name Cover
+ThermalDynamics:cover:0, tile.AntBlock.name Cover
+ThermalDynamics:cover:0, tile.RedAntBlock.name Cover
+ThermalDynamics:cover:0, tile.TermiteBlock.name Cover
+ThermalDynamics:cover:0, tile.CrystalTermiteBlock.name Cover
+ThermalDynamics:cover:0, tile.RainbowAntBlock.name Cover
+ThermalDynamics:cover:0, tile.UnstableAntBlock.name Cover
 ThermalDynamics:cover:0, Nova Catalyst Cover
 ThermalDynamics:cover:0, Nova Cataclysm Cover
 ThermalDynamics:cover:0, Transmutation Table Cover

@@ -35,6 +35,7 @@ imcScripts/
 journeymap/
 llibrary/
 local/
+mcdata/
 nestedmods/
 saves/
 schematics/
@@ -49,3 +50,4 @@ optionsnf.txt
 optionsshaders.txt
 servers.dat
 usernamecache.json
+mods/carpentersblocks/
