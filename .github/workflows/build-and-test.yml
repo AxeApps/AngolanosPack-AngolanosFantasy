@@ -1,0 +1,41 @@
+name: Build & Test
+
+on:
+  push:
+    branches:
+      - '**'
+    tags-ignore:
+      - '*'
+
+  pull_request:
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Create CurseForge ZIP
+        run: |
+          zip -r modpack.zip . \
+            -x ".git/*" \
+            -x ".github/*"
+
+      - name: Create MRPACK
+        run: |
+          if [ -f modrinth.index.json ]; then
+            zip -r modpack.mrpack . \
+              -x ".git/*" \
+              -x ".github/*"
+          fi
+
+      - name: Upload workflow artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: modpack-build
+          path: |
+            modpack.zip
+            modpack.mrpack
+          if-no-files-found: ignore

@@ -1,0 +1,64 @@
+name: Release
+
+on:
+  push:
+    tags:
+      - 'v*'
+
+permissions:
+  contents: write
+
+jobs:
+  release:
+    runs-on: ubuntu-latest
+
+    env:
+      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
+      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
+
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Read publish config
+        run: |
+          echo "MODRINTH_ID=$(grep '^modrinthProjectId=' publish.properties | cut -d= -f2)" >> $GITHUB_ENV
+          echo "CURSEFORGE_ID=$(grep '^curseforgeProjectId=' publish.properties | cut -d= -f2)" >> $GITHUB_ENV
+
+      - name: Create CurseForge ZIP
+        run: |
+          zip -r modpack.zip . \
+            -x ".git/*" \
+            -x ".github/*"
+
+      - name: Create MRPACK
+        run: |
+          if [ -f modrinth.index.json ]; then
+            zip -r modpack.mrpack . \
+              -x ".git/*" \
+              -x ".github/*"
+          fi
+
+      - name: Publish GitHub Release
+        uses: softprops/action-gh-release@v2
+        with:
+          files: |
+            modpack.zip
+            modpack.mrpack
+
+      - name: Publish everywhere
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
+          github-token: ${{ secrets.GITHUB_TOKEN }}
+
+          modrinth-id: ${{ env.MODRINTH_ID }}
+          modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+
+          curseforge-id: ${{ env.CURSEFORGE_ID }}
+          curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
+
+          files: |
+            modpack.zip
+            modpack.mrpack
+
+          version: ${{ github.ref_name }}
