@@ -2,8 +2,8 @@ name: Build & Test
 
 on:
   push:
-    tags-ignore:
-      - '*'
+    branches:
+      - main
   pull_request:
 
 jobs:
