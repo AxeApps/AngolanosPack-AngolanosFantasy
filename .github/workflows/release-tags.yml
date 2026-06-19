@@ -12,53 +12,54 @@ jobs:
   release:
     runs-on: ubuntu-latest
 
-    env:
-      MODRINTH_TOKEN: ${{ secrets.MODRINTH_TOKEN }}
-      CURSEFORGE_TOKEN: ${{ secrets.CURSEFORGE_TOKEN }}
-
     steps:
-      - name: Checkout
-        uses: actions/checkout@v4
+      - uses: actions/checkout@v4
 
       - name: Read publish config
         run: |
           echo "MODRINTH_ID=$(grep '^modrinthProjectId=' publish.properties | cut -d= -f2)" >> $GITHUB_ENV
           echo "CURSEFORGE_ID=$(grep '^curseforgeProjectId=' publish.properties | cut -d= -f2)" >> $GITHUB_ENV
 
-      - name: Create CurseForge ZIP
+      - name: Install Packwiz
         run: |
-          zip -r modpack.zip . \
-            -x ".git/*" \
-            -x ".github/*"
+          curl -L https://github.com/packwiz/packwiz/releases/latest/download/packwiz-linux-amd64 -o packwiz
+          chmod +x packwiz
 
-      - name: Create MRPACK
+      - name: Refresh index
+        run: ./packwiz refresh
+
+      - name: Export Modrinth pack
+        run: ./packwiz modrinth export
+
+      - name: Export CurseForge pack
+        run: ./packwiz curseforge export
+
+      - name: Rename outputs
         run: |
-          if [ -f modrinth.index.json ]; then
-            zip -r modpack.mrpack . \
-              -x ".git/*" \
-              -x ".github/*"
-          fi
+          mv *.mrpack AngolanosFantasy.mrpack
+          mv *.zip AngolanosFantasy.zip
 
-      - name: Publish GitHub Release
+      - name: GitHub Release
         uses: softprops/action-gh-release@v2
         with:
           files: |
-            modpack.zip
-            modpack.mrpack
+            AngolanosFantasy.zip
+            AngolanosFantasy.mrpack
 
-      - name: Publish everywhere
+      - name: Upload to Modrinth
+        if: env.MODRINTH_ID != ''
         uses: Kir-Antipov/mc-publish@v3.3
         with:
-          github-token: ${{ secrets.GITHUB_TOKEN }}
-
           modrinth-id: ${{ env.MODRINTH_ID }}
           modrinth-token: ${{ secrets.MODRINTH_TOKEN }}
+          files: AngolanosFantasy.mrpack
+          version: ${{ github.ref_name }}
 
+      - name: Upload to CurseForge
+        if: env.CURSEFORGE_ID != ''
+        uses: Kir-Antipov/mc-publish@v3.3
+        with:
           curseforge-id: ${{ env.CURSEFORGE_ID }}
           curseforge-token: ${{ secrets.CURSEFORGE_TOKEN }}
-
-          files: |
-            modpack.zip
-            modpack.mrpack
-
+          files: AngolanosFantasy.zip
           version: ${{ github.ref_name }}
