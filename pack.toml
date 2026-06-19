@@ -1,0 +1,13 @@
+name = "Angolanos Fantasy"
+author = "Tarnow"
+version = "1.0.0"
+pack-format = "packwiz:1.1.0"
+
+[index]
+file = "index.toml"
+hash-format = "sha256"
+hash = "0435e412bf361ef42c7ab7f90f580f10f66eda494c5174f34ed85d5c441169f2"
+
+[versions]
+forge = "10.13.4.1614"
+minecraft = "1.7.10"

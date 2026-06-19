@@ -2,6 +2,9 @@
 *.log
 logs/
 
+# Compiled modpack files
+*.mrpack
+
 # Crash reports
 crash-reports/
 
