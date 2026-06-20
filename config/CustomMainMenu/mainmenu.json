@@ -130,9 +130,28 @@
     
     "other":
     {
-        "background":
-        {
-            "image" : "angolanospack:textures/gui/background.png"
-        }
-    }
+		"background":
+		{
+			"image": "angolanospack:textures/gui/background/tinkers_greenslime_island.png",
+			"mode": "FILL",
+			"slideshow":
+			{
+				"images":
+				[
+					"angolanospack:textures/gui/background/tinkers_greenslime_island.png",
+					"angolanospack:textures/gui/background/mushroom_field.png",
+					"angolanospack:textures/gui/background/twilight_forest_1.png",
+					"angolanospack:textures/gui/background/twilight_forest_2.png",
+					"angolanospack:textures/gui/background/twilight_forest_3.png",
+					"angolanospack:textures/gui/background/twilight_forest_bigtree.png",
+					"angolanospack:textures/gui/background/twilight_forest_darkforest.png",
+					"angolanospack:textures/gui/background/twilight_forest_lich.png",
+					"angolanospack:textures/gui/background/twilight_forest_naga.png",
+					"angolanospack:textures/gui/background/twilight_forest_urghast.png"
+				],
+				"displayDuration": 200,
+				"fadeDuration": 30
+			}
+		}
+	}
 }

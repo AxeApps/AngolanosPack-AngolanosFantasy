@@ -8,6 +8,10 @@ logs/
 # Crash reports
 crash-reports/
 
+# Dumps
+dumps/
+dump/
+
 # Java crash files
 hs_err_pid*
 replay_pid*
@@ -23,6 +27,9 @@ replay_pid*
 # Script files
 *.py
 *.pyd
+
+# Cache files
+*.cache
 
 # Minecraft/Mod generated files
 .asm/
@@ -41,8 +48,10 @@ saves/
 schematics/
 screenshots/
 shaderpacks/
+1213309934
 server-resouce-packs/
 BotaniaVars.dat
+index.toml
 knownkeys.txt
 localconfig.cfg
 options.txt
@@ -51,3 +60,7 @@ optionsshaders.txt
 servers.dat
 usernamecache.json
 mods/carpentersblocks/
+
+# Generated configs
+config/JourneyMapServer/
+config/lwjgl3ify-relauncher.json
