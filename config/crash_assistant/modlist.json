@@ -913,21 +913,21 @@
     "curseForgeHash": 4151943122,
     "modrinthHash": "5a88c69d0f0f3cd3598842427f2a3ce5ea6ce9f2"
   },
-  "neiaddons-1.12.14.40-mc1.7.10.jar": {
-    "jarName": "neiaddons-1.12.14.40-mc1.7.10.jar",
+  "NEIAddons-1.18.1.jar": {
+    "jarName": "NEIAddons-1.18.1.jar",
     "modId": "NEIAddons",
     "name": "NEI Addons",
-    "version": "1.12.14.40",
-    "curseForgeHash": 2868671720,
-    "modrinthHash": "caf51bb104d309bc8a51d4dffc621f48aaa9e0ce"
+    "version": "1.18.1",
+    "curseForgeHash": 2953836100,
+    "modrinthHash": "01baa935e22947c7415074e39af59e05a3469a19"
   },
-  "NEIIntegration-MC1.7.10-1.1.2.jar": {
-    "jarName": "NEIIntegration-MC1.7.10-1.1.2.jar",
+  "NEIIntegration-1.5.3.jar": {
+    "jarName": "NEIIntegration-1.5.3.jar",
     "modId": "neiintegration",
-    "name": "NEI Integration",
-    "version": "1.1.2",
-    "curseForgeHash": 482587758,
-    "modrinthHash": "faa216961fee0d2edb1fb5ad353dae9122db04b7"
+    "name": "NEIIntegration",
+    "version": "1.5.3",
+    "curseForgeHash": 1857932357,
+    "modrinthHash": "e4293d03534e23bda14279e62984507a79fa36b4"
   },
   "NettyPatch-0.3.3.jar": {
     "jarName": "NettyPatch-0.3.3.jar",
@@ -945,29 +945,21 @@
     "curseForgeHash": 1654176294,
     "modrinthHash": "fb2936b66646761230d447c7529d8b4429736b9e"
   },
-  "NotEnoughEnergistics-1.7.31.jar": {
-    "jarName": "NotEnoughEnergistics-1.7.31.jar",
+  "NotEnoughEnergistics-1.7.33.jar": {
+    "jarName": "NotEnoughEnergistics-1.7.33.jar",
     "modId": "neenergistics",
     "name": "NotEnoughEnergistics",
-    "version": "1.7.31",
-    "curseForgeHash": 4183036152,
-    "modrinthHash": "265f2a7a7a8603c677d8f5f64b9f3998015a8791"
+    "version": "1.7.33",
+    "curseForgeHash": 2339228923,
+    "modrinthHash": "0310ebafeffb2f31a5a7534c3bf5448b5564b6b3"
   },
-  "NotEnoughItems-2.8.11-GTNH.jar": {
-    "jarName": "NotEnoughItems-2.8.11-GTNH.jar",
+  "NotEnoughItems-2.8.105-GTNH.jar": {
+    "jarName": "NotEnoughItems-2.8.105-GTNH.jar",
     "modId": "NotEnoughItems",
     "name": "NotEnoughItems",
-    "version": "2.8.11-GTNH",
-    "curseForgeHash": 2386332762,
-    "modrinthHash": "620bb5fadc8650280940b7ce070dc257a1568393"
-  },
-  "NotEnoughResources-1.7.10-0.1.0-128.jar": {
-    "jarName": "NotEnoughResources-1.7.10-0.1.0-128.jar",
-    "modId": "neresources",
-    "name": "Not Enough Resources",
-    "version": "",
-    "curseForgeHash": 930883094,
-    "modrinthHash": "8da5097b7b13050f246ced9573eee23d5e069c2a"
+    "version": "2.8.105-GTNH",
+    "curseForgeHash": 2294178872,
+    "modrinthHash": "d905d625c3bfcb5e5eac624afb8323446ff4c4fd"
   },
   "NPCIntegration-3.0.35.jar": {
     "jarName": "NPCIntegration-3.0.35.jar",
